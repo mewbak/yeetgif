@@ -99,6 +99,7 @@ gif emoji aubergine | gif wobble >doc/eggplant_wobble.gif
 ## Hall of Fame
 
 Post a GIF made using yeetgif with either the
+
 - [`#yeetgif` Twitter hashtag](https://twitter.com/hashtag/yeetgif?f=tweets)
 - and/or the [`#yeetgif` Giphy hashtag](https://giphy.com/search/yeetgif-stickers)
 - and/or the [`#yeetgif` Imgur hashtag](https://imgur.com/t/yeetgif)
