@@ -52,14 +52,14 @@ Either from [the releases page](https://github.com/sgreben/yeetgif/releases/late
 
 ```sh
 # Linux
-curl -L https://github.com/sgreben/yeetgif/releases/download/1.18.4/gif_1.18.4_linux_x86_64.tar.gz | tar xz
+curl -L https://github.com/sgreben/yeetgif/releases/download/1.18.5/gif_1.18.5_linux_x86_64.tar.gz | tar xz
 
 # OS X
-curl -L https://github.com/sgreben/yeetgif/releases/download/1.18.4/gif_1.18.4_osx_x86_64.tar.gz | tar xz
+curl -L https://github.com/sgreben/yeetgif/releases/download/1.18.5/gif_1.18.5_osx_x86_64.tar.gz | tar xz
 
 # Windows
-curl -LO https://github.com/sgreben/yeetgif/releases/download/1.18.4/gif_1.18.4_windows_x86_64.zip
-unzip gif_1.18.4_windows_x86_64.zip
+curl -LO https://github.com/sgreben/yeetgif/releases/download/1.18.5/gif_1.18.5_windows_x86_64.zip
+unzip gif_1.18.5_windows_x86_64.zip
 ```
 
 **NOTE**: To use the `optimize` command, you'll also need the [`giflossy`](https://github.com/kornelski/giflossy) fork of `gifsicle` installed:
@@ -116,9 +116,9 @@ Usage: gif [OPTIONS] COMMAND [arg...]
 
                      
 Options:             
-  -n                 Duplicate a single input image this many times (default 20)
+  -n                 Duplicate a single input image this many times (default 30)
   -q, --quiet        Disable all log output (stderr)
-  -d, --delay-ms     Frame delay in milliseconds (default 20)
+  -d, --delay-ms     Frame delay in milliseconds (default 25)
   -p, --pad          Pad images (default true)
       --write-meta   Write command line options into output GIF metadata (default true)
                      

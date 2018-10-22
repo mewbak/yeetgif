@@ -69,9 +69,9 @@ var encoded []byte
 
 // Global flags
 var (
-	duplicate = app.IntOpt("n", 20, "Duplicate a single input image this many times")
+	duplicate = app.IntOpt("n", 30, "Duplicate a single input image this many times")
 	quiet     = app.BoolOpt("q quiet", false, "Disable all log output (stderr)")
-	delay     = app.IntOpt("d delay-ms", 20, "Frame delay in milliseconds")
+	delay     = app.IntOpt("d delay-ms", 25, "Frame delay in milliseconds")
 	pad       = app.BoolOpt("p pad", true, "Pad images")
 	writeMeta = app.BoolOpt("write-meta", true, "Write command line options into output GIF metadata")
 )
