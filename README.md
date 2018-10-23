@@ -13,6 +13,7 @@ Composable GIF effects CLI, with reasonable defaults. Made for custom Slack/Disc
 - [Use it](#use-it)
 - [Hall of Fame](#hall-of-fame)
 - [Usage](#usage)
+    - [Conventions & tips](#conventions--tips)
     - [roll](#roll)
     - [wobble](#wobble)
     - [pulse](#pulse)
@@ -147,6 +148,13 @@ Commands:
                      
 Run 'gif COMMAND --help' for more information on a command.
 ```
+
+### Conventions & tips
+
+- To find out how a given example was made, try running `gif meta show` on it (e.g. `<yeet.gif gif meta show -p` will print the shell pipe of gif effects used to create `yeet.gif`).
+- Options with bracketed default values (e.g. `--noise` of [`fried`](#fried)) can take comma-separated values - the points will be spread over the animation length, with intermediate values linearly interpolated.
+- To figure out what a parameter does, try out some values around its default value, as well as much larger/smaller ones.
+- To reduce GIF size, try specifying a smaller number of duplicates for static images (e.g. `gif -n 20`), `gif optimize`, and dropping frames `gif chop drop-every <N>`.
 
 ### roll
 
